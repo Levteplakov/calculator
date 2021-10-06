@@ -1,0 +1,12 @@
+number_1 = float(input('Enter your first number: '))
+number_2 = float(input('Enter your second number: '))
+OP = input('Enter the operator (+,-,*,/): ')
+if OP == '+':
+    s = number_1 + number_2
+elif OP == '-':
+        s = number_1 - number_2
+elif OP == '*':
+        s = number_1 * number_2;
+else:
+        s = number_1 / number_2;
+print (s)
